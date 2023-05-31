@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  
+    margin: auto;
+    background: url("https://i.ytimg.com/vi/BnT-BjwymcE/maxresdefault.jpg") no-repeat center center fixed;
+    background-size: cover; 
+    /* font-family: sans-serif; */
+    font-family: "Open Sans", sans-serif;
+    
+}
+.navbar{
+    width: 100%;
+    /* position: fixed; */
+     /* top: 0;  */
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+    background:#1a1a1a;
+   
+}
+
+.link-group{
+    list-style: none;
+    display: flex;
+}
+
+.link a{
+    color:#E3E9E9;
+    opacity: 0.5;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    margin: 0 20px;
+    line-height: 80px;
+    transition: .5s;
+    font-size: 20px;
+}
+
+.link a:hover, .link.active a{
+    /* color: rgba(13, 71, 198, 0.736); */
+    opacity: 1;
+}
+.pop{
+    width: 20%;
+    /* vertical-align:left; */
+    height:100px;  
+}
+.vig{
+    background: #1a1a1a;
+    width:100%;
+    display: flex;
+    justify-content:center;
+    
+}
+.loginmain{ 
+    color:  #E3E9E9;
+    position: absolute;
+    top: 40%;
+    left: 60%; 
+}
+.loginmain h1{
+    font-family: "Open Sans", sans-serif;
+    width: 50%;
+    display: inline-block;
+    font-size: 40px;
+    border-bottom: 5px solid #E3E9E9;
+    margin-bottom: 15px;
+    padding: 13px 0;
+}
+.box{
+    width: 100%; 
+    margin: 22px 0px;
+    color:  #E3E9E9;
+    border-bottom: 2px solid ;
+}
+.box input{  
+    background: none;
+    width: 75%;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: none;
+    outline:none;
+    color:#E3E9E9;
+}
+.btn{
+    color:#1a1a1a;
+    cursor: pointer;
+    outline: none; 
+    margin: 12px 0;
+    padding: 10px 21px;
+    border: 2px solid #1a1a1a;
+    border-radius: 10px;
+    font-size: 18px;
+    background: none;
+    font-weight: bold;
+    
+}
+.box i{ 
+    width: 25px; 
+    text-align: center;
+}
+.btn:hover{
+    opacity: 0.5;
+    color: white; 
+    background:#1a1a1a; 
+    
+}
+::placeholder{
+    color:  #1a1a1a;
+}
+ 

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <title>AWT LAB</title>
+    <head>
+        <link rel="stylesheet" href="regi.css">
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+      />
+      <script src="https://kit.fontawesome.com/9233850143.js" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="validate.js"></script>
+<style>
+    table, th, td {
+  border:2px solid black;
+}
+</style>
+    </head>
+    <body >
+    <div class="vig">
+        <img class="pop" alt="" src="images/1595497656733.png">
+    
+    </div>
+         <nav class="navbar">
+           
+            <ul class="link-group">
+                
+                <li class="link "><a href="home.html">home</a></li>
+                <li class="link"><a href="#">Registration</a></li>
+                <li class="link"><a href="login.html">Login</a></li>
+                <li class="link"><a  href="depart.html">Departments</a></li>
+                
+             </ul>
+            </nav>
+  <div class="container">
+    <!-- <div class="title">Student Registration</div> -->
+    <div class="content">
+        <form action="#" name="StudentRegistration" onsubmit="return(validate());">
+
+            <table cellpadding="6" width="40%"   align="center"
+            cellspacing="4">
+            
+            <tr>
+            <td colspan=2>
+            <center><font size=4><b>Student Academic Information Registration Form</b></font></center>
+            </td>
+            </tr>
+            
+            <tr>
+            <td>Name</td>
+            <td><input type=text name=textnames id="textname" size="50"></td>
+            </tr>
+            
+            <tr>
+            <td>Roll Number</td>
+            <td><input type="text" name="fathername" id="fathername"
+            size="50"></td>
+            </tr>
+            <tr>
+                <tr>
+                    <td>Course</td>
+                   
+                    <td><select name="Course">
+                    <option value="-1" selected>SELECT....</option>
+                    <option value="B.Tech">B.TECH</option>
+                    <option value="B.Tech">M.TECH</option>
+                    <option value="MCA">MCA</option>
+                    <option value="MBA">MBA</option>
+                    <option value="BCA">BCA</option>
+                    </select></td>
+                    </tr>
+                    
+            
+                    <tr>
+                        <td>Branch</td>
+                        <td><select name="Course">
+                        <option value="-1" selected>SELECT....</option>
+                        <option value="B.Tech">CSE</option>
+                        <option value="B.Tech">I.T</option>
+                        <option value="MCA">ECE</option>
+                        <option value="MBA">MECH</option>
+                        <option value="BCA">EEE</option>
+                        <option value="BCA">AI and DS</option>
+                        <option value="BCA">CIVIL</option>
+                        </select></td>
+                        </tr>
+                        
+            <tr>
+            <td>Gender</td>
+            <td><input type="radio" name="Gender" value="male" size="20">Male
+            <input type="radio" name="Gender" value="Female" size="60">Female</td>
+            </tr>
+            
+            <tr>
+                <td>Year</td>
+                <td><select name="City">
+                <option value="-1" selected>SELECT....</option>
+                <option value="New Delhi">1</option>
+                <option value="New Delhi">2</option>
+                <option value="Mumbai">3</option>
+                <option value="Goa">4</option>
+                </select></td>
+                </tr>
+            
+            <tr>
+            <td>Section</td>
+            <td><select name="City">
+            <option value="-1" selected>SELECT....</option>
+            <option value="New Delhi">1</option>
+            <option value="New Delhi">2</option>
+            <option value="Mumbai">3</option>
+            <option value="Goa">4</option>
+            </select></td>
+            </tr>
+            
+            
+            </tr>
+            
+            <tr>
+            <td>Enrolled Year</td>
+            <td><select Name="State">
+            <option value="-1" selected>SELECT....</option>
+            <option value="New Delhi">2019</option>
+            <option value="Mumbai">2020</option>
+            <option value="Goa">2021</option>
+            <option value="Bihar">2024</option>
+            </select></td>
+            </tr>
+            
+            <tr>
+                <td>Gradutaion Year</td>
+                <td><select Name="State">
+                <option value="-1" selected>SELECT....</option>
+                <option value="New Delhi">2023</option>
+                <option value="Mumbai">2024</option>
+                <option value="Goa">2025</option>
+                <option value="Bihar">2026</option>
+                </select></td>
+                </tr>
+            
+                <tr>
+                    <td>Backlogs</td>
+                    <td><select name="City">
+                    <option value="-1" selected>SELECT....</option>
+                    <option value="New Delhi">1</option>
+                    <option value="New Delhi">2</option>
+                    <option value="Mumbai">3</option>
+                    <option value="Goa">4</option>
+                    </select></td>
+                    </tr>
+                       
+            
+            <tr>
+            <td>Email Id:</td>
+            <td><input type="text" name="emailid" id="emailid" size="50"></td>
+            </tr>
+            
+            
+            <tr>
+            <td>Mobile No:</td>
+            <td><input type="text" name="mobileno" id="mobileno" size="50"></td>
+            </tr>
+            <tr>
+            <td><input type="reset"></td>
+            <td colspan="2"><input type="submit" value="Submit Form" /></td>
+            </tr>
+            </table>
+            </form>
+      
+    </div>
+  </div>
+
+</body>
+</html>
